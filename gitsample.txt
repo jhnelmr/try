@@ -1,0 +1,12 @@
+
+
+git config --global user.name "John"
+git config --global user.email johnelmar88@gmail.com
+git init
+git status
+git add .
+git rm --cached . -to delete
+git commit -m "sample"
+git remote add origin <link>
+git branch -M main
+git push -u origin main
